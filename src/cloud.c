@@ -7,8 +7,8 @@
 #include "../Google-C/include/google.h"
 #include "cloud.h"
 
-char *c_key    = "i58xh5qigf55ma1";
-char *c_secret = "a9iwynwq94nyuca";
+char *c_key    = "YOUR DROPBOX APP KEY";
+char *c_secret = "YOUR DROPBOX APP SECRET";
 
 char *t_key    = NULL;
 char *t_secret = NULL;

@@ -8,8 +8,8 @@
 #include <stdio.h>
 #include <curl/easy.h>
 
-static const char* GOOGLE_APP_CLIENT_ID = "595393500053-fu5fbq4qq51m8jqc3cjc8csgmoa3hnfk.apps.googleusercontent.com";
-static const char* GOOGLE_APP_CLIENT_SECRET = "SJur9lC8PbiGE1VcwQr_H7-Y";
+static const char* GOOGLE_APP_CLIENT_ID = "YOUR GOOGLE APP CLIENT ID";
+static const char* GOOGLE_APP_CLIENT_SECRET = "YOUR GOOGLE APP SECRET";
 
 static const char* GOOGLE_AUTHORIZATION_LINK = "https://accounts.google.com/AccountChooser?continue=https://accounts.google.com/o/oauth2/v2/auth?scope%3Dhttps://www.googleapis.com/auth/drive%26response_type%3Dcode%26state%3D/profile%26redirect_uri%3Dhttp://localhost%26client_id%3D595393500053-fu5fbq4qq51m8jqc3cjc8csgmoa3hnfk.apps.googleusercontent.com%26from_login%3D1%26as%3D256e4d775bf1b4&ltmpl=nosignup&btmpl=authsub&scc=1&oauth=1";
 static const char* GOOGLE_AUTH_URL = "https://www.googleapis.com/oauth2/v4/token";

@@ -8,8 +8,8 @@
 #include <stdio.h>
 #include <curl/easy.h>
 
-static const char* YANDEX_APP_CLIENT_ID = "ae423f4f7c8f441caf771a8705152647";
-static const char* YANDEX_APP_CLIENT_SECRET = "6df4dc63b3e444289fb6df82d29922c9";
+static const char* YANDEX_APP_CLIENT_ID = "YOUR YANDEX APP CLIENT ID";
+static const char* YANDEX_APP_CLIENT_SECRET = "YOUR YANDEX APP CLIENT SECRET";
 
 static const char* YANDEX_AUTHORIZATION_LINK = "https://oauth.yandex.ru/authorize?response_type=code&client_id=ae423f4f7c8f441caf771a8705152647";
 static const char* YANDEX_AUTH_URL = "https://oauth.yandex.ru/token";
